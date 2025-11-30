@@ -75,7 +75,7 @@ Request → Controller → Service → Repository → Model → Database
 ## Usage Example
 
 ```php
-// API Endpoint: PUT /tests/1
+// API Endpoint: PUT api/tests/1
 // Request: {"name": "ss", "description": "test"}
 // Flow: TestController → TestRequest (validation) → TestService → TestRepository → Test Model
 // Response: JSON with validation errors or success data
